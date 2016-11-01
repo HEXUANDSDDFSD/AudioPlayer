@@ -1,18 +1,21 @@
 PODS:
   - FreeStreamer (3.6.3):
     - Reachability (~> 3.0)
+  - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - Reachability (3.2)
 
 DEPENDENCIES:
   - FreeStreamer
+  - MBProgressHUD
   - MJRefresh
 
 SPEC CHECKSUMS:
   FreeStreamer: cc73d77f3adc114899c82b0d0a0dc16e077ec65d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: 24cf6cf36c26048c107a3856ee207681aca62614
+PODFILE CHECKSUM: e49c0f769cae9499152728089eee050436393f5a
 
 COCOAPODS: 1.1.1

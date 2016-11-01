@@ -14,6 +14,7 @@
 		CB14A5D01DC4E0C70097C30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB14A5CF1DC4E0C70097C30B /* Assets.xcassets */; };
 		CB14A5D31DC4E0C70097C30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB14A5D11DC4E0C70097C30B /* LaunchScreen.storyboard */; };
 		CB14A5DC1DC4E11F0097C30B /* AudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB14A5DB1DC4E11F0097C30B /* AudioPlayerViewController.m */; };
+		CB2AC55A1DC82CB3007020C3 /* default_singer_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2AC5591DC82CB3007020C3 /* default_singer_img@2x.png */; };
 		CB41B0BE1DC6C75E00816E14 /* next_song@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB41B0BD1DC6C75E00816E14 /* next_song@2x.png */; };
 		CB41B0C01DC6C76A00816E14 /* last_song@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB41B0BF1DC6C76A00816E14 /* last_song@2x.png */; };
 		CB41B0C21DC6D05400816E14 /* volume@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB41B0C11DC6D05400816E14 /* volume@2x.png */; };
@@ -42,6 +43,7 @@
 		CB14A5D41DC4E0C70097C30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB14A5DA1DC4E11F0097C30B /* AudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerViewController.h; sourceTree = "<group>"; };
 		CB14A5DB1DC4E11F0097C30B /* AudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerViewController.m; sourceTree = "<group>"; };
+		CB2AC5591DC82CB3007020C3 /* default_singer_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_singer_img@2x.png"; sourceTree = "<group>"; };
 		CB41B0BD1DC6C75E00816E14 /* next_song@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next_song@2x.png"; sourceTree = "<group>"; };
 		CB41B0BF1DC6C76A00816E14 /* last_song@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "last_song@2x.png"; sourceTree = "<group>"; };
 		CB41B0C11DC6D05400816E14 /* volume@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volume@2x.png"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		CBB752A71DC61FB40095C927 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				CB2AC5591DC82CB3007020C3 /* default_singer_img@2x.png */,
 				CB41B0C11DC6D05400816E14 /* volume@2x.png */,
 				CB41B0BF1DC6C76A00816E14 /* last_song@2x.png */,
 				CB41B0BD1DC6C75E00816E14 /* next_song@2x.png */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2AC55A1DC82CB3007020C3 /* default_singer_img@2x.png in Resources */,
 				CB14A5D31DC4E0C70097C30B /* LaunchScreen.storyboard in Resources */,
 				CB14A5D01DC4E0C70097C30B /* Assets.xcassets in Resources */,
 				CB41B0C21DC6D05400816E14 /* volume@2x.png in Resources */,

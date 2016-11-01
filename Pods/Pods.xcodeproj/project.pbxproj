@@ -7,115 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C7050AC9B6578A6F5D31932F01277B0 /* FSPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BBF2A559513FC9FD821238C950B10F /* FSPlaylistItem.m */; };
-		1009BED43CBD26BE8B532A6A316999B7 /* FSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF4E20EC9983FAC0540AC850237F18 /* FSAudioController.m */; };
-		11DE624DCF6AE938A120EA777FC18016 /* file_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0982593B69F6C190F6434698012B8CBB /* file_stream.cpp */; };
-		12D03CBF7E035E905488A9CB49908A4C /* id3_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECA95A46A00D4E0C844C579538E403E /* id3_parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1750E8156D634B9DCFCBDF366430F326 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 83005B755B3AB39A6DB73205A6539E4A /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D3E81F6A77F4E72A21040B45DA4E912 /* FSParsePlaylistRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 863D53860BF54CF06AB51F7F1ECFAFF6 /* FSParsePlaylistRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E88082E67EECA1458FA24BBF7677908 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B32597760BD023754466974356300D /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F48696AD698115D898EC7CCD60D075A /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E3C721B959FD145F82BBBB101B2C3 /* MJRefreshBackStateFooter.m */; };
-		1FCC932BB321CD8218C89712A60B5199 /* file_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3E128B607B24FEAE718A55AB799D3B /* file_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2427E2F0CA20B2924D366EA986934663 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9413ED815CFACE3E6AA444DB84145F01 /* MJRefreshAutoStateFooter.m */; };
-		242ACF86B9A5998FB11204E1F682B617 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688E07FDC704F58D58C50CDC34414867 /* AudioToolbox.framework */; };
-		2592D7ABE0377EEA53645AF1DD6BCBEE /* file_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4295841483DF3391702116B059D5AB /* file_output.cpp */; };
-		27CDB53D3924112B12957FEBB6E1B612 /* FSCheckContentTypeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 529FD589F21A096AA2C3507A07234B6C /* FSCheckContentTypeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29B88C2751706A571E5AF133CA444676 /* FSCheckContentTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE09D6419D0B88A11BFE172BE5118A /* FSCheckContentTypeRequest.m */; };
-		2BF82C6E34E86E2CD2B34193273F4926 /* input_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC1C244FF6D89F0474DAB85570E9033 /* input_stream.cpp */; };
-		2D7FBA552B3CED667D78641BD3DEF96C /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 973F0AC44022A01497237DA21879ADB5 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		401E263227EC555D61B8BBB94ED09D73 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA25AFD8BE4687900550AE0B6B19A19 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44529459406814AB948DF5BFEEA0A227 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A28FDC37A1C8599F12A4C6C1295EF615 /* UIView+MJExtension.m */; };
-		4468BA7947F5B4ACC36C3F57CA95B68E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020D509FF970BE600AB05D107A9BEAC5 /* SystemConfiguration.framework */; };
-		4548D482088C76C3191E06CDFD55A8E3 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7CD6BAD2F5D6489E5E3BAD000A813B /* MJRefreshNormalHeader.m */; };
-		467ADC9DF6A1E6193FE860E7DF3E8D07 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E880C12923CD228C0701BF1F6BD2702C /* UIScrollView+MJRefresh.m */; };
-		499211EAF9B4ACA6D9DC215454184F4D /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5429B7C138A79DE47CF7BF6D48D1B8FD /* MJRefreshHeader.m */; };
-		4A55E2CB58A23956EF1822F5A6DF5F2C /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D87803BCDBF7E48BA7803C7A643F7CE /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C359B72D6BDE27D946D1B4D5A22DE00 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3D59E6D409142918A2CF38E96E2B76 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E293F0E5FCEDE19B582AF7ED50EFE81 /* Pods-AudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAC5FCC47A1F075E935A20FD1B3F706 /* Pods-AudioPlayer-dummy.m */; };
-		4F367DCDFE766D2A4DB80B51A41AACA0 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB45BABBCD6CA61F03C79E37DAE1405 /* MJRefreshConst.m */; };
-		53F323F77E406181032370402E0BFFFA /* FSParseRssPodcastFeedRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F450A0E330A69019345301D781DAA498 /* FSParseRssPodcastFeedRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55A56E5AD0E0D45D90AD76C4032DF5BE /* stream_configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F69128CE9EE1842FC4E6E342228E1E /* stream_configuration.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5A18A32422C5C66F04A1803B4E06737A /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1082542E68F970B8617BC8B113A93A /* MJRefreshBackNormalFooter.m */; };
-		5C9A6BF8EDB18CD7B2CC7DC8853F77B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09922291141ABC7A135FC7C42BA28A52 /* Foundation.framework */; };
-		60B872A80D2C7EC0A342F16970BF22BB /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD30342715ABCBB140542D64F7D74877 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6401732D299AF2E66A86932AC8BB931D /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EFE910BDFE90D5A2C603E89E31A98D /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69E1CE5225A654934B2A36CCEECD0F82 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABF8FA0D51D214279098A5CDD74E908 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ACE435B71030CD770DECAA65380285F /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CD286D53539448D48D6B05206C4D1404 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AEB2EADF41C41F88F6A7BD04A265521 /* file_output.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE711F6BFAEBFDD5ECE8793EE0E2185 /* file_output.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AF15C80552D80E4972B692D40C0EDCD /* audio_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F0280ED11CEB54AEFBEC1ADE5D0E0 /* audio_queue.cpp */; };
-		6D40913F14E30C5027EDB1E8E5267456 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 160DE6EB962754B45EB7A02F1337B037 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DA8FE775825B86433C10F49CBFDAE77 /* FSAudioStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9A74B02E4769A9C467110CA70EC7D /* FSAudioStream.mm */; };
-		6E9813A3A92FBA6F262C2C9EA2D60D14 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8D3154F1603F007C6400BEB6E59E12 /* UIScrollView+MJExtension.m */; };
-		729824F7571ED25599AD2A5E1E831189 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC43339A0671E17E1CA1DE52E069FB6 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		777A861D7A0ED7A46ED02C5611EDC9FD /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FB322B7B77845707588F64216712D2 /* NSBundle+MJRefresh.m */; };
-		7AF0305745D5AEF5F200E84C8F1BD59D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77498A3D6FD0A660C1BF0D3EFDACBB71 /* AVFoundation.framework */; };
-		7BB5FA5A44FBC13830AE9E7731A38D7F /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDB2949CE407DF79552D5E68629CF30 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C85357AAF7E3CC0B55A42AC8FC5FD75 /* FSParsePlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE78EA7D0A3C3CB7A5AC610AF37A80C0 /* FSParsePlaylistRequest.m */; };
-		813C716890600356B3516B029C32F309 /* caching_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F131E5BA7E9B43EE9B0DBE4E962060E6 /* caching_stream.cpp */; };
-		81535D66FB5E01DA634F05D68488D6D9 /* FSAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C160350440730FE74D565692AB2478 /* FSAudioStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		820AE72EE18049DB0D39950065ABA727 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66C833EA04BAE1A81843F63B538FE1 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		832385F31AACCFABD48F783C577C8785 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D6ABD64AF58C43EDCFCF1FF25DA47604 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8355E9060CF4352ED0E21569A6FED32F /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDBB0D7B9B9B3F6477BC27C04C8947E /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		881AB1EA374C9358F2A83F1D835D1B35 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 59786B1BC54FB27A3A336BBE3391438C /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		883621FD17021E05C78001D9EB1D5F5C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBD3CF1E322C7F18674DD44C8CE1E8C /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A9118E83980D38CDCA9C5476CDBEC66 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 563892AF6D30C83E9AB099DCD0103ED5 /* MJRefreshStateHeader.m */; };
-		8C31D45D01245AA2523A3DC53B9749CC /* http_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BAED2A4B08558268250DAF9695B545 /* http_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90376EC63D557F4112EB285D96C40AF7 /* FSXMLHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A9DE260F9B13D6C4078BFC4ABD476B /* FSXMLHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9347B960A275D7EEF8F79F348578B45D /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EF206AE33796395A04D1BD903F4E7AD5 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95674A86C42EF3A4888F903787F94385 /* FSPlaylistItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1E043BB77E2334999D769D3071DFF8 /* FSPlaylistItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9571D74095D28363A2289206A99721D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09922291141ABC7A135FC7C42BA28A52 /* Foundation.framework */; };
-		9B213AFFFF630B017B632B9E2CC7D878 /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4522E11B78B7ABC5BBDF85E00CBA9A5A /* stream_configuration.cpp */; };
-		9B79C7E40CB9EED56260A6C16666D42F /* FSXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CAC87A56F20ECD25CB8D0D8AFDBC6D /* FSXMLHttpRequest.m */; };
-		9BF3462EAA9410B8C1884C26F8D3B26A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9148B97B63C6E01100957AABC4A23DBB /* CFNetwork.framework */; };
-		A2F6E9757ACC5A5FFACE3FE77F525BBB /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92210939D41EE3CD7797704A597B6C7A /* MJRefreshAutoNormalFooter.m */; };
-		A7E7209134CFD931384DDE6935F1054B /* audio_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7072AE36DE2D4E1AD64414F45523E274 /* audio_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF967D9309FEB58E617169EE3426BFFC /* input_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF7505D8D7920C2EFE9B4C2DE9EF49D /* input_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B10A64BAF7708212BEE77303B46759A0 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 81570C4064AC97EAED954DFAFEAC85FD /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3A8D99FD9E8B15B11699DAB7C30B73B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE5BDB5715D6DE82849B2DAFDB244AF /* MediaPlayer.framework */; };
-		B53BBBA53D16F4765458D04650F33C6E /* FSParseRssPodcastFeedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D392833785FAA6A173D5B6565F12FE4 /* FSParseRssPodcastFeedRequest.m */; };
-		B79483732FB4670C4781BB5D676EF239 /* http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6E69C716FEA9ACA8E099AB3183F7CE5 /* http_stream.cpp */; };
-		B7B6154D69B450647A1787A95ECAD0F2 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0F536ADD11EA1B58E862139A5746D0 /* MJRefreshAutoGifFooter.m */; };
-		BADF9194B3EA6D9426D70D9DBE9DB522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09922291141ABC7A135FC7C42BA28A52 /* Foundation.framework */; };
-		BD1BD044F24621F7C578F81AE74EE0A3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B836F0DF0D9791C660F843417F0F208 /* Reachability.m */; };
-		BD2F34186C19215D5AA4BA2B6162F316 /* audio_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B925C1802998B50D4D740CDE6CA14DC5 /* audio_stream.cpp */; };
-		BE2119E0E9098B360A257D8C2D55268F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09922291141ABC7A135FC7C42BA28A52 /* Foundation.framework */; };
-		BF2169897AC0093F964BA0026A1F6266 /* id3_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27476C545991F31C92D4E8EE5D7BE35 /* id3_parser.cpp */; };
-		C0266DA702333927677C77CC3FCB8390 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A48DA3A33A563C512815F57818451 /* MJRefreshAutoFooter.m */; };
-		C0B37414EDB304F4C4FD536ADF57D33B /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94653358C323725B49EAADC35FB3CFF3 /* Reachability-dummy.m */; };
-		C10291D821E77E019EC760D33F1DAB2B /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 3632F2D1970EA665E0AB6433C78D9BEB /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC16A2223B61C18089347985340A8404 /* audio_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FF49F320CDECD1D526CAC419125F58 /* audio_queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CEFDC58C7241F86D92DEF8EDFCE7DF99 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB995A313DF7E0305F77B55A0291C8 /* MJRefresh-dummy.m */; };
-		E7A8DDD289D3BFB8950D29CBF67C7132 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7AA460D5A33033E9D76ECACB57E63 /* MJRefreshBackFooter.m */; };
-		E954B9D3A283FB30A945CE8823E102DD /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D103C4B5C6393CD34FE44A58B3C231 /* MJRefreshFooter.m */; };
-		F01687C8E9A3E4F8A528BE97DE7BDB80 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8BCE5FEC8124E5FE4C0A4BA001CB6C /* MJRefreshBackGifFooter.m */; };
-		F3AC7C93C770A6F7918EA23972C1762A /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FB42764D6266FEF29530F6D98674F656 /* MJRefreshGifHeader.m */; };
-		F52763D22F95CF0A6F8491822F37BF5D /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2132FDD171476870245964CD9E956 /* MJRefreshComponent.m */; };
-		F6F315CFD3EA704175D8D8D0D4F90373 /* FSAudioController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72074C45EA8739B7A7C1D8D06BE5AF56 /* FSAudioController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9D88D711DF262AA4A2C7B872D331D3F /* FreeStreamer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 336196A70D55F45089EB45F7A5095271 /* FreeStreamer-dummy.m */; };
-		FA4481375D50C0A78B1C9D66C59981BB /* caching_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = CD95328567B0C05317BF6B0A5043DFE9 /* caching_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C7050AC9B6578A6F5D31932F01277B0 /* FSPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58946BBE44A463B7736BF9D5D13160E0 /* FSPlaylistItem.m */; };
+		1009BED43CBD26BE8B532A6A316999B7 /* FSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E75FE99AF131E8A9105C2DE37534A /* FSAudioController.m */; };
+		11DE624DCF6AE938A120EA777FC18016 /* file_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E6E2F945BFE7E954971D452C740D /* file_stream.cpp */; };
+		12D03CBF7E035E905488A9CB49908A4C /* id3_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7A42F58866905E56732AD88A954AF0 /* id3_parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1750E8156D634B9DCFCBDF366430F326 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E1ECA08580BB8E2D0CE1D0B8E3720A /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE3105DA903226A8910A8986D35E7BA /* Pods-AudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAC5FCC47A1F075E935A20FD1B3F706 /* Pods-AudioPlayer-dummy.m */; };
+		1D3E81F6A77F4E72A21040B45DA4E912 /* FSParsePlaylistRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 649D5A86CA84EFFECC1E4D5236E1770D /* FSParsePlaylistRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7C991485E20452D43F8CA99E39351F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */; };
+		1E88082E67EECA1458FA24BBF7677908 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE549634196E4DCD275E09CE5F897DD /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F48696AD698115D898EC7CCD60D075A /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEC3CE61D4257BB66535848BC0337E7 /* MJRefreshBackStateFooter.m */; };
+		1FCC932BB321CD8218C89712A60B5199 /* file_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A85CE3C724A7AE5E032EBB983AE9D03 /* file_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2427E2F0CA20B2924D366EA986934663 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A28B5453D6B043E2FB4F4958342CD /* MJRefreshAutoStateFooter.m */; };
+		242ACF86B9A5998FB11204E1F682B617 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E23D43E9AC38744A261065D1363E91 /* AudioToolbox.framework */; };
+		2592D7ABE0377EEA53645AF1DD6BCBEE /* file_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEC81E58CA29D29E10BB32AAC0C70BDC /* file_output.cpp */; };
+		27CDB53D3924112B12957FEBB6E1B612 /* FSCheckContentTypeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD49A76A917E47B3C056685E23A70A6 /* FSCheckContentTypeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29B88C2751706A571E5AF133CA444676 /* FSCheckContentTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 314BC18A5A0488F39AF1C3C121CDFCE0 /* FSCheckContentTypeRequest.m */; };
+		2BF82C6E34E86E2CD2B34193273F4926 /* input_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D552DDB09D6957BD1FEB4BE3C06D5 /* input_stream.cpp */; };
+		2D7FBA552B3CED667D78641BD3DEF96C /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F866EBD89A5470E456DE5D57B98505F5 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401E263227EC555D61B8BBB94ED09D73 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B11F6AA2CDCF034CC7E241D1112734 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43543B73A02F5465187DE5905D8F3768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */; };
+		44529459406814AB948DF5BFEEA0A227 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D735639A42C2927C5DB05D853FB53007 /* UIView+MJExtension.m */; };
+		4468BA7947F5B4ACC36C3F57CA95B68E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D156792169B0CC91581BFA20540424 /* SystemConfiguration.framework */; };
+		4548D482088C76C3191E06CDFD55A8E3 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 10160B74CA5E8D67324A8812E5CF0301 /* MJRefreshNormalHeader.m */; };
+		467ADC9DF6A1E6193FE860E7DF3E8D07 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B5264ED079CB75DCA78987122589B6 /* UIScrollView+MJRefresh.m */; };
+		499211EAF9B4ACA6D9DC215454184F4D /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 73473CB297DED9A23A011A146EC98C2D /* MJRefreshHeader.m */; };
+		4A55E2CB58A23956EF1822F5A6DF5F2C /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52012C2ADDB7BEEC050ED956F58C6ADF /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C359B72D6BDE27D946D1B4D5A22DE00 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F9517ABCE5A45F03CE38575396354154 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F367DCDFE766D2A4DB80B51A41AACA0 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 034736E233C7468A4DB4F25F711CB3F5 /* MJRefreshConst.m */; };
+		53F323F77E406181032370402E0BFFFA /* FSParseRssPodcastFeedRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB10AD4761CBB1E6917DF5BD77C9073D /* FSParseRssPodcastFeedRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A56E5AD0E0D45D90AD76C4032DF5BE /* stream_configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B07D906C3941ECE0CF5CD8922B32DC8 /* stream_configuration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57C211AF7CA7B0FB14708FF35B6E5A54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27272B657DEE3E39F40C7DA9CEA428AA /* QuartzCore.framework */; };
+		5A18A32422C5C66F04A1803B4E06737A /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E69782E65671CE5B593FAEB5995973 /* MJRefreshBackNormalFooter.m */; };
+		5C9A6BF8EDB18CD7B2CC7DC8853F77B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */; };
+		60B872A80D2C7EC0A342F16970BF22BB /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B68E660CE4BDF06CE86B8C536EC88A /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6401732D299AF2E66A86932AC8BB931D /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0A51D9E8D6E304D48AE8F4CFE564F5 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648E7F45D6E4DCE98EED9D4E2F003C1E /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB688C2AF3BF9A484356ED30DCD991 /* MBProgressHUD-dummy.m */; };
+		695A3FA15E903AE48EB0B3BE336F2467 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CADDF33CB8C19BB8CC07384BEA1C1725 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E1CE5225A654934B2A36CCEECD0F82 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2A827E426FAC64D6D4A75F2A525C6A /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACE435B71030CD770DECAA65380285F /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7087B3B5132D75873202B527224440E1 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AEB2EADF41C41F88F6A7BD04A265521 /* file_output.h in Headers */ = {isa = PBXBuildFile; fileRef = DE03CAE79FDD2E122C4FF8C73D166BED /* file_output.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AF15C80552D80E4972B692D40C0EDCD /* audio_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DBA6FFEFB53AC6FBE341C46EC84B2 /* audio_queue.cpp */; };
+		6D40913F14E30C5027EDB1E8E5267456 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5818F20EB3699D9C35BD41E9ED4BFB00 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA8FE775825B86433C10F49CBFDAE77 /* FSAudioStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = F7C0996E82D3214209EC69EC116B8383 /* FSAudioStream.mm */; };
+		6E9813A3A92FBA6F262C2C9EA2D60D14 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C75B75B59CB170800FCBA568CEADBA /* UIScrollView+MJExtension.m */; };
+		729824F7571ED25599AD2A5E1E831189 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA307EBBBB54B1D84CCB5C2C0763C60 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777A861D7A0ED7A46ED02C5611EDC9FD /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E27F153580127C866C8F69B8775C85D /* NSBundle+MJRefresh.m */; };
+		7AF0305745D5AEF5F200E84C8F1BD59D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E4081CC9BC8F214630D1C16EB6E2C4 /* AVFoundation.framework */; };
+		7BB5FA5A44FBC13830AE9E7731A38D7F /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 259BEF13B3D31E5F9A37E66590A1F657 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C85357AAF7E3CC0B55A42AC8FC5FD75 /* FSParsePlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 983EF9CABC35AE0C03EFD580C5C24591 /* FSParsePlaylistRequest.m */; };
+		813C716890600356B3516B029C32F309 /* caching_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F4E0C90E2E9F75A262AF02B9F5ED7E /* caching_stream.cpp */; };
+		81535D66FB5E01DA634F05D68488D6D9 /* FSAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E145DCE6E8DF099C98601ED1ED1A48 /* FSAudioStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		820AE72EE18049DB0D39950065ABA727 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B44565313B010F837A783A51C6087C2F /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832385F31AACCFABD48F783C577C8785 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC0C9DB69C6DE6389B0C8E44976F4CD /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8355E9060CF4352ED0E21569A6FED32F /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D12A76375C6147011B2761C55E88268A /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881AB1EA374C9358F2A83F1D835D1B35 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EBD6F59897A1237A2E5A71A71DA7020 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883621FD17021E05C78001D9EB1D5F5C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD0003F97A0794C30B8D7A7467FB042 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A9118E83980D38CDCA9C5476CDBEC66 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79BD6264FE45C61C6A46552A8B2D93 /* MJRefreshStateHeader.m */; };
+		8C31D45D01245AA2523A3DC53B9749CC /* http_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCA5B81749AF7D42B491C9A76FD81EB /* http_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90376EC63D557F4112EB285D96C40AF7 /* FSXMLHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 120F89A2C416B51C7E8261958AEC29B7 /* FSXMLHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9347B960A275D7EEF8F79F348578B45D /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0264BEEACE3F240873F5A0730AAC7D28 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95674A86C42EF3A4888F903787F94385 /* FSPlaylistItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6FF2A7C7290D4B6F821C7458237790 /* FSPlaylistItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B213AFFFF630B017B632B9E2CC7D878 /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB47738B9E55A33ACC1CAC7A25A4F4 /* stream_configuration.cpp */; };
+		9B79C7E40CB9EED56260A6C16666D42F /* FSXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A378F2A75A6CE481BFD875A78092E8F9 /* FSXMLHttpRequest.m */; };
+		9BF3462EAA9410B8C1884C26F8D3B26A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784CD573752F741A2631A48E6767FE61 /* CFNetwork.framework */; };
+		9DCA360B265EE13D1C08EFC120770EFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F520A9C7599B1E09C41B201CFF4375 /* CoreGraphics.framework */; };
+		A2F6E9757ACC5A5FFACE3FE77F525BBB /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F67F320BA5B4CEDB75EF5E959C16E5C /* MJRefreshAutoNormalFooter.m */; };
+		A7E7209134CFD931384DDE6935F1054B /* audio_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 325BFDFDA94405365BB0F497625ADCB2 /* audio_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF967D9309FEB58E617169EE3426BFFC /* input_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF8086F44559D8F9FFFDC5DBB860875 /* input_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B10A64BAF7708212BEE77303B46759A0 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B118A15B2B4712105AA0AB7B7C0027CA /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A8D99FD9E8B15B11699DAB7C30B73B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFEE8D3A07E0B87FF666485C161740E /* MediaPlayer.framework */; };
+		B53BBBA53D16F4765458D04650F33C6E /* FSParseRssPodcastFeedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF633661839C1F08C6D36BBA5456A6E /* FSParseRssPodcastFeedRequest.m */; };
+		B79483732FB4670C4781BB5D676EF239 /* http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C4B9D16049A6C3850F1C045836F1C /* http_stream.cpp */; };
+		B7B6154D69B450647A1787A95ECAD0F2 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0F57046D24C8418887DF060624AE8E /* MJRefreshAutoGifFooter.m */; };
+		BADF9194B3EA6D9426D70D9DBE9DB522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */; };
+		BD1BD044F24621F7C578F81AE74EE0A3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D629AEC82BA30A7160F8978099F21778 /* Reachability.m */; };
+		BD2F34186C19215D5AA4BA2B6162F316 /* audio_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF5A17EDADCD64AC0F425405100C630 /* audio_stream.cpp */; };
+		BE2119E0E9098B360A257D8C2D55268F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */; };
+		BF2169897AC0093F964BA0026A1F6266 /* id3_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A0BFF2BE3DDFE9127C7A3F8A7ED2D72 /* id3_parser.cpp */; };
+		C0266DA702333927677C77CC3FCB8390 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F149CFFCF9808095D947DD1184C3184 /* MJRefreshAutoFooter.m */; };
+		C0B37414EDB304F4C4FD536ADF57D33B /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D769A2A64CD67242F9A920EE7261005C /* Reachability-dummy.m */; };
+		C10291D821E77E019EC760D33F1DAB2B /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E308FBF863598C26E5A9D9EF16B587 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC16A2223B61C18089347985340A8404 /* audio_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9BD36E595B324314048CCA3C434480 /* audio_queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCA9C08C9CBDE367B7BB38B6C0547B94 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7100C47B4455ABD609305D94CFE5D /* MBProgressHUD.m */; };
+		CEFDC58C7241F86D92DEF8EDFCE7DF99 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1E74A7E50B9328B585B540476FADB /* MJRefresh-dummy.m */; };
+		E7A8DDD289D3BFB8950D29CBF67C7132 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBEAB673193AB7AB22BC16243D50A0 /* MJRefreshBackFooter.m */; };
+		E954B9D3A283FB30A945CE8823E102DD /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C49F1DC3176CFA1612320248F090A7E7 /* MJRefreshFooter.m */; };
+		F01687C8E9A3E4F8A528BE97DE7BDB80 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607A13C3DEF6E7A17629BEA9D405B2D /* MJRefreshBackGifFooter.m */; };
+		F3AC7C93C770A6F7918EA23972C1762A /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CCB67152221607EC9EDA2A05811A0 /* MJRefreshGifHeader.m */; };
+		F52763D22F95CF0A6F8491822F37BF5D /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3BBE76C543F8A0946423C7BB53F03 /* MJRefreshComponent.m */; };
+		F6F315CFD3EA704175D8D8D0D4F90373 /* FSAudioController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBFB7B87780125C5418902A47965345 /* FSAudioController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D88D711DF262AA4A2C7B872D331D3F /* FreeStreamer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B638CB10A7C67BA54B4A44BA7C62A0F /* FreeStreamer-dummy.m */; };
+		FA4481375D50C0A78B1C9D66C59981BB /* caching_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B430077DD6E37F6DB56AD8C779CFFE60 /* caching_stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C75F1F87F5CB05ADE19C00ACE36C24D /* PBXContainerItemProxy */ = {
+		4A356F479E62C20ACB721547CC0E1E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5031B739E0701A67146E751C513B86;
+			remoteInfo = Reachability;
+		};
+		5F9DE4C9CF5681605F84BF368FB95249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DB9267A921EC9A17098996C028A8F134;
 			remoteInfo = FreeStreamer;
 		};
-		5D39AF1B72338CEC4C993C488A033B86 /* PBXContainerItemProxy */ = {
+		C7F796E3293A3289B8A3078C58F84FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D058B89EB3B3DF45457A2DCD3971AFFE;
+			remoteInfo = MBProgressHUD;
+		};
+		F55A29A5FAFFE3BCB81AE516CBF41840 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 70BC44266C6FFE30D2C57129458E070B;
 			remoteInfo = MJRefresh;
-		};
-		E344A964E9EFAA16AEEC5B3BA91E3D77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA5031B739E0701A67146E751C513B86;
-			remoteInfo = Reachability;
 		};
 		FCDBC4FCD4C5D39F7601BFA6D4144D1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -127,115 +140,123 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01EBC4D29FCBAA202BC94E5E8BCA0FDD /* libPods-AudioPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudioPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		020D509FF970BE600AB05D107A9BEAC5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		076E3C721B959FD145F82BBBB101B2C3 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
-		0982593B69F6C190F6434698012B8CBB /* file_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = file_stream.cpp; path = FreeStreamer/FreeStreamer/file_stream.cpp; sourceTree = "<group>"; };
-		09922291141ABC7A135FC7C42BA28A52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		10CACE4F9E3ED362BAF26AA016DFBE45 /* libFreeStreamer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFreeStreamer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		018BF29FFA7DE53C15D25ECD68EAC357 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		0264BEEACE3F240873F5A0730AAC7D28 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		034736E233C7468A4DB4F25F711CB3F5 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		05F1E74A7E50B9328B585B540476FADB /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		06D6BE05E8A383A689733E7E0645AD64 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		07C7100C47B4455ABD609305D94CFE5D /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		07C75B75B59CB170800FCBA568CEADBA /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		09BAC18BAB57D827B6C3DFA1A457FDD0 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		10160B74CA5E8D67324A8812E5CF0301 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		11E145DCE6E8DF099C98601ED1ED1A48 /* FSAudioStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAudioStream.h; path = FreeStreamer/FreeStreamer/FSAudioStream.h; sourceTree = "<group>"; };
+		120F89A2C416B51C7E8261958AEC29B7 /* FSXMLHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSXMLHttpRequest.h; path = FreeStreamer/FreeStreamer/FSXMLHttpRequest.h; sourceTree = "<group>"; };
 		1592865209BFFCC30AA4D5493B574217 /* Pods-AudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		160DE6EB962754B45EB7A02F1337B037 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		1BA9A74B02E4769A9C467110CA70EC7D /* FSAudioStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FSAudioStream.mm; path = FreeStreamer/FreeStreamer/FSAudioStream.mm; sourceTree = "<group>"; };
-		1DBD3CF1E322C7F18674DD44C8CE1E8C /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		234751596228574D2C2F33E2B31072C3 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
-		24BAED2A4B08558268250DAF9695B545 /* http_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_stream.h; path = FreeStreamer/FreeStreamer/http_stream.h; sourceTree = "<group>"; };
-		25B32597760BD023754466974356300D /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
-		2CF7505D8D7920C2EFE9B4C2DE9EF49D /* input_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = input_stream.h; path = FreeStreamer/FreeStreamer/input_stream.h; sourceTree = "<group>"; };
-		2EB45BABBCD6CA61F03C79E37DAE1405 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
-		336196A70D55F45089EB45F7A5095271 /* FreeStreamer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FreeStreamer-dummy.m"; sourceTree = "<group>"; };
-		3632F2D1970EA665E0AB6433C78D9BEB /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		3D87803BCDBF7E48BA7803C7A643F7CE /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		3DDBB0D7B9B9B3F6477BC27C04C8947E /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
-		42CAC87A56F20ECD25CB8D0D8AFDBC6D /* FSXMLHttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSXMLHttpRequest.m; path = FreeStreamer/FreeStreamer/FSXMLHttpRequest.m; sourceTree = "<group>"; };
-		4387B0EA4028D994D1279178673A6F1A /* FreeStreamer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FreeStreamer-prefix.pch"; sourceTree = "<group>"; };
-		4522E11B78B7ABC5BBDF85E00CBA9A5A /* stream_configuration.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = stream_configuration.cpp; path = FreeStreamer/FreeStreamer/stream_configuration.cpp; sourceTree = "<group>"; };
+		1B6FF2A7C7290D4B6F821C7458237790 /* FSPlaylistItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPlaylistItem.h; path = FreeStreamer/FreeStreamer/FSPlaylistItem.h; sourceTree = "<group>"; };
+		1C7A42F58866905E56732AD88A954AF0 /* id3_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = id3_parser.h; path = FreeStreamer/FreeStreamer/id3_parser.h; sourceTree = "<group>"; };
+		1F67F320BA5B4CEDB75EF5E959C16E5C /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		259BEF13B3D31E5F9A37E66590A1F657 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		26B5264ED079CB75DCA78987122589B6 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		27272B657DEE3E39F40C7DA9CEA428AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		28E69782E65671CE5B593FAEB5995973 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		2AA3BBE76C543F8A0946423C7BB53F03 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		2B07D906C3941ECE0CF5CD8922B32DC8 /* stream_configuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream_configuration.h; path = FreeStreamer/FreeStreamer/stream_configuration.h; sourceTree = "<group>"; };
+		2CA307EBBBB54B1D84CCB5C2C0763C60 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		314BC18A5A0488F39AF1C3C121CDFCE0 /* FSCheckContentTypeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCheckContentTypeRequest.m; path = FreeStreamer/FreeStreamer/FSCheckContentTypeRequest.m; sourceTree = "<group>"; };
+		325BFDFDA94405365BB0F497625ADCB2 /* audio_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_stream.h; path = FreeStreamer/FreeStreamer/audio_stream.h; sourceTree = "<group>"; };
+		3B3C4B9D16049A6C3850F1C045836F1C /* http_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = http_stream.cpp; path = FreeStreamer/FreeStreamer/http_stream.cpp; sourceTree = "<group>"; };
+		3B9EAC3CDB8EBF1DDB78F3F374C2581A /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		461B6E2D4E916305933E112CEB536985 /* Pods-AudioPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioPlayer-resources.sh"; sourceTree = "<group>"; };
-		4ABF8FA0D51D214279098A5CDD74E908 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		529FD589F21A096AA2C3507A07234B6C /* FSCheckContentTypeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCheckContentTypeRequest.h; path = FreeStreamer/FreeStreamer/FSCheckContentTypeRequest.h; sourceTree = "<group>"; };
-		5429B7C138A79DE47CF7BF6D48D1B8FD /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		46F520A9C7599B1E09C41B201CFF4375 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		47EB688C2AF3BF9A484356ED30DCD991 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		4A0BFF2BE3DDFE9127C7A3F8A7ED2D72 /* id3_parser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = id3_parser.cpp; path = FreeStreamer/FreeStreamer/id3_parser.cpp; sourceTree = "<group>"; };
+		4C1E75FE99AF131E8A9105C2DE37534A /* FSAudioController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSAudioController.m; path = FreeStreamer/FreeStreamer/FSAudioController.m; sourceTree = "<group>"; };
+		4C4D552DDB09D6957BD1FEB4BE3C06D5 /* input_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = input_stream.cpp; path = FreeStreamer/FreeStreamer/input_stream.cpp; sourceTree = "<group>"; };
+		4E27F153580127C866C8F69B8775C85D /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		4F79BD6264FE45C61C6A46552A8B2D93 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		51E1ECA08580BB8E2D0CE1D0B8E3720A /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		52012C2ADDB7BEEC050ED956F58C6ADF /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		547DB8EFF0A6656EC3F0CFBF192E4F5C /* Pods-AudioPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		563892AF6D30C83E9AB099DCD0103ED5 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
-		56C160350440730FE74D565692AB2478 /* FSAudioStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAudioStream.h; path = FreeStreamer/FreeStreamer/FSAudioStream.h; sourceTree = "<group>"; };
-		59786B1BC54FB27A3A336BBE3391438C /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		59D103C4B5C6393CD34FE44A58B3C231 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
-		5A3E128B607B24FEAE718A55AB799D3B /* file_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_stream.h; path = FreeStreamer/FreeStreamer/file_stream.h; sourceTree = "<group>"; };
-		669BC7E1DCD0F44A5BB1C2ED2ECEB849 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
-		688E07FDC704F58D58C50CDC34414867 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		6B98308AB25B395C43D622B3DF225B6A /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
-		6CD7AA460D5A33033E9D76ECACB57E63 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		6D3D59E6D409142918A2CF38E96E2B76 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		6DA25AFD8BE4687900550AE0B6B19A19 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		6ECA95A46A00D4E0C844C579538E403E /* id3_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = id3_parser.h; path = FreeStreamer/FreeStreamer/id3_parser.h; sourceTree = "<group>"; };
-		7072AE36DE2D4E1AD64414F45523E274 /* audio_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_stream.h; path = FreeStreamer/FreeStreamer/audio_stream.h; sourceTree = "<group>"; };
-		72074C45EA8739B7A7C1D8D06BE5AF56 /* FSAudioController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAudioController.h; path = FreeStreamer/FreeStreamer/FSAudioController.h; sourceTree = "<group>"; };
-		76FF49F320CDECD1D526CAC419125F58 /* audio_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_queue.h; path = FreeStreamer/FreeStreamer/audio_queue.h; sourceTree = "<group>"; };
-		77498A3D6FD0A660C1BF0D3EFDACBB71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		78F69128CE9EE1842FC4E6E342228E1E /* stream_configuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream_configuration.h; path = FreeStreamer/FreeStreamer/stream_configuration.h; sourceTree = "<group>"; };
-		7B836F0DF0D9791C660F843417F0F208 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		7DDB2949CE407DF79552D5E68629CF30 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
-		7F40F10E22F44FD6B55AF042CF332517 /* FreeStreamer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FreeStreamer.xcconfig; sourceTree = "<group>"; };
-		81570C4064AC97EAED954DFAFEAC85FD /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
-		81BE09D6419D0B88A11BFE172BE5118A /* FSCheckContentTypeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCheckContentTypeRequest.m; path = FreeStreamer/FreeStreamer/FSCheckContentTypeRequest.m; sourceTree = "<group>"; };
-		83005B755B3AB39A6DB73205A6539E4A /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		863D53860BF54CF06AB51F7F1ECFAFF6 /* FSParsePlaylistRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSParsePlaylistRequest.h; path = FreeStreamer/FreeStreamer/FSParsePlaylistRequest.h; sourceTree = "<group>"; };
-		87C2132FDD171476870245964CD9E956 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
-		8D392833785FAA6A173D5B6565F12FE4 /* FSParseRssPodcastFeedRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSParseRssPodcastFeedRequest.m; path = FreeStreamer/FreeStreamer/FSParseRssPodcastFeedRequest.m; sourceTree = "<group>"; };
-		8DE5BDB5715D6DE82849B2DAFDB244AF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		9148B97B63C6E01100957AABC4A23DBB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		92210939D41EE3CD7797704A597B6C7A /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		5607A13C3DEF6E7A17629BEA9D405B2D /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		5818F20EB3699D9C35BD41E9ED4BFB00 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		58946BBE44A463B7736BF9D5D13160E0 /* FSPlaylistItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPlaylistItem.m; path = FreeStreamer/FreeStreamer/FSPlaylistItem.m; sourceTree = "<group>"; };
+		5BBFB7B87780125C5418902A47965345 /* FSAudioController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAudioController.h; path = FreeStreamer/FreeStreamer/FSAudioController.h; sourceTree = "<group>"; };
+		5F149CFFCF9808095D947DD1184C3184 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		5FFBEAB673193AB7AB22BC16243D50A0 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		649D5A86CA84EFFECC1E4D5236E1770D /* FSParsePlaylistRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSParsePlaylistRequest.h; path = FreeStreamer/FreeStreamer/FSParsePlaylistRequest.h; sourceTree = "<group>"; };
+		67D156792169B0CC91581BFA20540424 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		6B638CB10A7C67BA54B4A44BA7C62A0F /* FreeStreamer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FreeStreamer-dummy.m"; sourceTree = "<group>"; };
+		7087B3B5132D75873202B527224440E1 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		73473CB297DED9A23A011A146EC98C2D /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		73C4872BA55B390F01B497A73E4E2330 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CD573752F741A2631A48E6767FE61 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		7A85CE3C724A7AE5E032EBB983AE9D03 /* file_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_stream.h; path = FreeStreamer/FreeStreamer/file_stream.h; sourceTree = "<group>"; };
+		7AE549634196E4DCD275E09CE5F897DD /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		7C34E6E2F945BFE7E954971D452C740D /* file_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = file_stream.cpp; path = FreeStreamer/FreeStreamer/file_stream.cpp; sourceTree = "<group>"; };
+		7CFB47738B9E55A33ACC1CAC7A25A4F4 /* stream_configuration.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = stream_configuration.cpp; path = FreeStreamer/FreeStreamer/stream_configuration.cpp; sourceTree = "<group>"; };
+		7EBD6F59897A1237A2E5A71A71DA7020 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		7F6A28B5453D6B043E2FB4F4958342CD /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		836747304F0DA763BC6DC32FFEC1BA79 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		840E763C12F9305AD5FBF40907B33EE8 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E7A5537C9A5EBE892EACA2988582A2 /* libPods-AudioPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudioPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B68E660CE4BDF06CE86B8C536EC88A /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		8D9CCB67152221607EC9EDA2A05811A0 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		8E1DBA6FFEFB53AC6FBE341C46EC84B2 /* audio_queue.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = audio_queue.cpp; path = FreeStreamer/FreeStreamer/audio_queue.cpp; sourceTree = "<group>"; };
+		9261FB3CB86ACA17B3DF854DCDBF6AA8 /* FreeStreamer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FreeStreamer-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9413ED815CFACE3E6AA444DB84145F01 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
-		94653358C323725B49EAADC35FB3CFF3 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
-		973F0AC44022A01497237DA21879ADB5 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		9C4F0280ED11CEB54AEFBEC1ADE5D0E0 /* audio_queue.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = audio_queue.cpp; path = FreeStreamer/FreeStreamer/audio_queue.cpp; sourceTree = "<group>"; };
-		A28FDC37A1C8599F12A4C6C1295EF615 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		A7C998C72A26103940C6A2B84294B429 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
-		AA66C833EA04BAE1A81843F63B538FE1 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
-		AB1E043BB77E2334999D769D3071DFF8 /* FSPlaylistItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPlaylistItem.h; path = FreeStreamer/FreeStreamer/FSPlaylistItem.h; sourceTree = "<group>"; };
-		ABC43339A0671E17E1CA1DE52E069FB6 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
-		B3BBF2A559513FC9FD821238C950B10F /* FSPlaylistItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPlaylistItem.m; path = FreeStreamer/FreeStreamer/FSPlaylistItem.m; sourceTree = "<group>"; };
-		B3EF4E20EC9983FAC0540AC850237F18 /* FSAudioController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSAudioController.m; path = FreeStreamer/FreeStreamer/FSAudioController.m; sourceTree = "<group>"; };
-		B925C1802998B50D4D740CDE6CA14DC5 /* audio_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = audio_stream.cpp; path = FreeStreamer/FreeStreamer/audio_stream.cpp; sourceTree = "<group>"; };
-		BE5191F118FD418DC2D3A2ED278333F5 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE55AD748CD4E8E81F09DBB6F67C7A9A /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C27476C545991F31C92D4E8EE5D7BE35 /* id3_parser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = id3_parser.cpp; path = FreeStreamer/FreeStreamer/id3_parser.cpp; sourceTree = "<group>"; };
-		C2DB995A313DF7E0305F77B55A0291C8 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
-		C6A9DE260F9B13D6C4078BFC4ABD476B /* FSXMLHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSXMLHttpRequest.h; path = FreeStreamer/FreeStreamer/FSXMLHttpRequest.h; sourceTree = "<group>"; };
-		C6E69C716FEA9ACA8E099AB3183F7CE5 /* http_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = http_stream.cpp; path = FreeStreamer/FreeStreamer/http_stream.cpp; sourceTree = "<group>"; };
+		983EF9CABC35AE0C03EFD580C5C24591 /* FSParsePlaylistRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSParsePlaylistRequest.m; path = FreeStreamer/FreeStreamer/FSParsePlaylistRequest.m; sourceTree = "<group>"; };
+		A378F2A75A6CE481BFD875A78092E8F9 /* FSXMLHttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSXMLHttpRequest.m; path = FreeStreamer/FreeStreamer/FSXMLHttpRequest.m; sourceTree = "<group>"; };
+		A5F4E0C90E2E9F75A262AF02B9F5ED7E /* caching_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = caching_stream.cpp; path = FreeStreamer/FreeStreamer/caching_stream.cpp; sourceTree = "<group>"; };
+		AB10AD4761CBB1E6917DF5BD77C9073D /* FSParseRssPodcastFeedRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSParseRssPodcastFeedRequest.h; path = FreeStreamer/FreeStreamer/FSParseRssPodcastFeedRequest.h; sourceTree = "<group>"; };
+		ABC0C9DB69C6DE6389B0C8E44976F4CD /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		ABEC3CE61D4257BB66535848BC0337E7 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		AD69357A59049E13C18CE67D0AA89058 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		AFF633661839C1F08C6D36BBA5456A6E /* FSParseRssPodcastFeedRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSParseRssPodcastFeedRequest.m; path = FreeStreamer/FreeStreamer/FSParseRssPodcastFeedRequest.m; sourceTree = "<group>"; };
+		B118A15B2B4712105AA0AB7B7C0027CA /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		B430077DD6E37F6DB56AD8C779CFFE60 /* caching_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = caching_stream.h; path = FreeStreamer/FreeStreamer/caching_stream.h; sourceTree = "<group>"; };
+		B44565313B010F837A783A51C6087C2F /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		B7B11F6AA2CDCF034CC7E241D1112734 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		BA0A51D9E8D6E304D48AE8F4CFE564F5 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		BA0F57046D24C8418887DF060624AE8E /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		BDF5A17EDADCD64AC0F425405100C630 /* audio_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = audio_stream.cpp; path = FreeStreamer/FreeStreamer/audio_stream.cpp; sourceTree = "<group>"; };
+		BFD0003F97A0794C30B8D7A7467FB042 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C49F1DC3176CFA1612320248F090A7E7 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C9710F9208DC194A2F7BFD93F1C4CFD7 /* libFreeStreamer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFreeStreamer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9754D2517A3472A797530DB78322FEC /* Pods-AudioPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioPlayer-frameworks.sh"; sourceTree = "<group>"; };
-		CD286D53539448D48D6B05206C4D1404 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		CD95328567B0C05317BF6B0A5043DFE9 /* caching_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = caching_stream.h; path = FreeStreamer/FreeStreamer/caching_stream.h; sourceTree = "<group>"; };
-		CE0F536ADD11EA1B58E862139A5746D0 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		CE4295841483DF3391702116B059D5AB /* file_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = file_output.cpp; path = FreeStreamer/FreeStreamer/file_output.cpp; sourceTree = "<group>"; };
-		CE78EA7D0A3C3CB7A5AC610AF37A80C0 /* FSParsePlaylistRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSParsePlaylistRequest.m; path = FreeStreamer/FreeStreamer/FSParsePlaylistRequest.m; sourceTree = "<group>"; };
+		CADDF33CB8C19BB8CC07384BEA1C1725 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CBFEE8D3A07E0B87FF666485C161740E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		CDCA5B81749AF7D42B491C9A76FD81EB /* http_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_stream.h; path = FreeStreamer/FreeStreamer/http_stream.h; sourceTree = "<group>"; };
 		CFAC5FCC47A1F075E935A20FD1B3F706 /* Pods-AudioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioPlayer-dummy.m"; sourceTree = "<group>"; };
-		D6ABD64AF58C43EDCFCF1FF25DA47604 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		D12A76375C6147011B2761C55E88268A /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		D1E6EDF86EE40E27782574CDD3A16912 /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D629AEC82BA30A7160F8978099F21778 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D735639A42C2927C5DB05D853FB53007 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		D769A2A64CD67242F9A920EE7261005C /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		D7BC8D659F0AFFE88B24B90A03650C6A /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		D96DBB8B88B5EBBF03676BE05353F74C /* Pods-AudioPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC8D3154F1603F007C6400BEB6E59E12 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
-		DD30342715ABCBB140542D64F7D74877 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		DD8BCE5FEC8124E5FE4C0A4BA001CB6C /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		DE1082542E68F970B8617BC8B113A93A /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		DB9BD36E595B324314048CCA3C434480 /* audio_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_queue.h; path = FreeStreamer/FreeStreamer/audio_queue.h; sourceTree = "<group>"; };
+		DDF8086F44559D8F9FFFDC5DBB860875 /* input_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = input_stream.h; path = FreeStreamer/FreeStreamer/input_stream.h; sourceTree = "<group>"; };
+		DE03CAE79FDD2E122C4FF8C73D166BED /* file_output.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_output.h; path = FreeStreamer/FreeStreamer/file_output.h; sourceTree = "<group>"; };
 		E12A4BCDA65BABA73432AA94E094A3A5 /* Pods-AudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		E49A48DA3A33A563C512815F57818451 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
-		E880C12923CD228C0701BF1F6BD2702C /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
-		EA7CD6BAD2F5D6489E5E3BAD000A813B /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
-		EDE711F6BFAEBFDD5ECE8793EE0E2185 /* file_output.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_output.h; path = FreeStreamer/FreeStreamer/file_output.h; sourceTree = "<group>"; };
-		EF206AE33796395A04D1BD903F4E7AD5 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
-		EF20C5918702F50C8FCEDC711D691235 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
-		F131E5BA7E9B43EE9B0DBE4E962060E6 /* caching_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = caching_stream.cpp; path = FreeStreamer/FreeStreamer/caching_stream.cpp; sourceTree = "<group>"; };
-		F3FB322B7B77845707588F64216712D2 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		F450A0E330A69019345301D781DAA498 /* FSParseRssPodcastFeedRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSParseRssPodcastFeedRequest.h; path = FreeStreamer/FreeStreamer/FSParseRssPodcastFeedRequest.h; sourceTree = "<group>"; };
-		F7EFE910BDFE90D5A2C603E89E31A98D /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		FB42764D6266FEF29530F6D98674F656 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		FDC1C244FF6D89F0474DAB85570E9033 /* input_stream.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = input_stream.cpp; path = FreeStreamer/FreeStreamer/input_stream.cpp; sourceTree = "<group>"; };
+		E2E4081CC9BC8F214630D1C16EB6E2C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAD49A76A917E47B3C056685E23A70A6 /* FSCheckContentTypeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCheckContentTypeRequest.h; path = FreeStreamer/FreeStreamer/FSCheckContentTypeRequest.h; sourceTree = "<group>"; };
+		F4E308FBF863598C26E5A9D9EF16B587 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		F7AAE430BAB04940A6AA8C9FC83F98C3 /* FreeStreamer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FreeStreamer.xcconfig; sourceTree = "<group>"; };
+		F7C0996E82D3214209EC69EC116B8383 /* FSAudioStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FSAudioStream.mm; path = FreeStreamer/FreeStreamer/FSAudioStream.mm; sourceTree = "<group>"; };
+		F7E23D43E9AC38744A261065D1363E91 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		F866EBD89A5470E456DE5D57B98505F5 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		F9517ABCE5A45F03CE38575396354154 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		FEC81E58CA29D29E10BB32AAC0C70BDC /* file_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = file_output.cpp; path = FreeStreamer/FreeStreamer/file_output.cpp; sourceTree = "<group>"; };
+		FF2A827E426FAC64D6D4A75F2A525C6A /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B62131968D37D8FCF1B907471F99ABF /* Frameworks */ = {
+		43D191C99AA8F778D5543018D83C6962 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9571D74095D28363A2289206A99721D2 /* Foundation.framework in Frameworks */,
+				1D7C991485E20452D43F8CA99E39351F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +280,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		988FA15379A4032C312C2049FB88101A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCA360B265EE13D1C08EFC120770EFE /* CoreGraphics.framework in Frameworks */,
+				43543B73A02F5465187DE5905D8F3768 /* Foundation.framework in Frameworks */,
+				57C211AF7CA7B0FB14708FF35B6E5A54 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF38BA04E109DDFA6FA554FE877F6F2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,186 +302,163 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05B80680B020BD620666B3E3A66CF957 /* MJRefresh */ = {
+		03E111D1337DEF46EE2364D2402E8F8F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3632F2D1970EA665E0AB6433C78D9BEB /* MJRefresh.h */,
-				973F0AC44022A01497237DA21879ADB5 /* MJRefreshAutoFooter.h */,
-				E49A48DA3A33A563C512815F57818451 /* MJRefreshAutoFooter.m */,
-				160DE6EB962754B45EB7A02F1337B037 /* MJRefreshAutoGifFooter.h */,
-				CE0F536ADD11EA1B58E862139A5746D0 /* MJRefreshAutoGifFooter.m */,
-				AA66C833EA04BAE1A81843F63B538FE1 /* MJRefreshAutoNormalFooter.h */,
-				92210939D41EE3CD7797704A597B6C7A /* MJRefreshAutoNormalFooter.m */,
-				DD30342715ABCBB140542D64F7D74877 /* MJRefreshAutoStateFooter.h */,
-				9413ED815CFACE3E6AA444DB84145F01 /* MJRefreshAutoStateFooter.m */,
-				83005B755B3AB39A6DB73205A6539E4A /* MJRefreshBackFooter.h */,
-				6CD7AA460D5A33033E9D76ECACB57E63 /* MJRefreshBackFooter.m */,
-				ABC43339A0671E17E1CA1DE52E069FB6 /* MJRefreshBackGifFooter.h */,
-				DD8BCE5FEC8124E5FE4C0A4BA001CB6C /* MJRefreshBackGifFooter.m */,
-				4ABF8FA0D51D214279098A5CDD74E908 /* MJRefreshBackNormalFooter.h */,
-				DE1082542E68F970B8617BC8B113A93A /* MJRefreshBackNormalFooter.m */,
-				3DDBB0D7B9B9B3F6477BC27C04C8947E /* MJRefreshBackStateFooter.h */,
-				076E3C721B959FD145F82BBBB101B2C3 /* MJRefreshBackStateFooter.m */,
-				25B32597760BD023754466974356300D /* MJRefreshComponent.h */,
-				87C2132FDD171476870245964CD9E956 /* MJRefreshComponent.m */,
-				F7EFE910BDFE90D5A2C603E89E31A98D /* MJRefreshConst.h */,
-				2EB45BABBCD6CA61F03C79E37DAE1405 /* MJRefreshConst.m */,
-				6DA25AFD8BE4687900550AE0B6B19A19 /* MJRefreshFooter.h */,
-				59D103C4B5C6393CD34FE44A58B3C231 /* MJRefreshFooter.m */,
-				CD286D53539448D48D6B05206C4D1404 /* MJRefreshGifHeader.h */,
-				FB42764D6266FEF29530F6D98674F656 /* MJRefreshGifHeader.m */,
-				59786B1BC54FB27A3A336BBE3391438C /* MJRefreshHeader.h */,
-				5429B7C138A79DE47CF7BF6D48D1B8FD /* MJRefreshHeader.m */,
-				3D87803BCDBF7E48BA7803C7A643F7CE /* MJRefreshNormalHeader.h */,
-				EA7CD6BAD2F5D6489E5E3BAD000A813B /* MJRefreshNormalHeader.m */,
-				EF206AE33796395A04D1BD903F4E7AD5 /* MJRefreshStateHeader.h */,
-				563892AF6D30C83E9AB099DCD0103ED5 /* MJRefreshStateHeader.m */,
-				D6ABD64AF58C43EDCFCF1FF25DA47604 /* NSBundle+MJRefresh.h */,
-				F3FB322B7B77845707588F64216712D2 /* NSBundle+MJRefresh.m */,
-				7DDB2949CE407DF79552D5E68629CF30 /* UIScrollView+MJExtension.h */,
-				DC8D3154F1603F007C6400BEB6E59E12 /* UIScrollView+MJExtension.m */,
-				6D3D59E6D409142918A2CF38E96E2B76 /* UIScrollView+MJRefresh.h */,
-				E880C12923CD228C0701BF1F6BD2702C /* UIScrollView+MJRefresh.m */,
-				81570C4064AC97EAED954DFAFEAC85FD /* UIView+MJExtension.h */,
-				A28FDC37A1C8599F12A4C6C1295EF615 /* UIView+MJExtension.m */,
-				361669CA3E4E9B21FD94183EB186F1D2 /* Resources */,
-				82194FBD0673A8649ED5378B01568AB4 /* Support Files */,
-			);
-			path = MJRefresh;
-			sourceTree = "<group>";
-		};
-		0DB9B38BEC638481BE05D14169C41AFE /* FreeStreamer */ = {
-			isa = PBXGroup;
-			children = (
-				9C4F0280ED11CEB54AEFBEC1ADE5D0E0 /* audio_queue.cpp */,
-				76FF49F320CDECD1D526CAC419125F58 /* audio_queue.h */,
-				B925C1802998B50D4D740CDE6CA14DC5 /* audio_stream.cpp */,
-				7072AE36DE2D4E1AD64414F45523E274 /* audio_stream.h */,
-				F131E5BA7E9B43EE9B0DBE4E962060E6 /* caching_stream.cpp */,
-				CD95328567B0C05317BF6B0A5043DFE9 /* caching_stream.h */,
-				CE4295841483DF3391702116B059D5AB /* file_output.cpp */,
-				EDE711F6BFAEBFDD5ECE8793EE0E2185 /* file_output.h */,
-				0982593B69F6C190F6434698012B8CBB /* file_stream.cpp */,
-				5A3E128B607B24FEAE718A55AB799D3B /* file_stream.h */,
-				72074C45EA8739B7A7C1D8D06BE5AF56 /* FSAudioController.h */,
-				B3EF4E20EC9983FAC0540AC850237F18 /* FSAudioController.m */,
-				56C160350440730FE74D565692AB2478 /* FSAudioStream.h */,
-				1BA9A74B02E4769A9C467110CA70EC7D /* FSAudioStream.mm */,
-				529FD589F21A096AA2C3507A07234B6C /* FSCheckContentTypeRequest.h */,
-				81BE09D6419D0B88A11BFE172BE5118A /* FSCheckContentTypeRequest.m */,
-				863D53860BF54CF06AB51F7F1ECFAFF6 /* FSParsePlaylistRequest.h */,
-				CE78EA7D0A3C3CB7A5AC610AF37A80C0 /* FSParsePlaylistRequest.m */,
-				F450A0E330A69019345301D781DAA498 /* FSParseRssPodcastFeedRequest.h */,
-				8D392833785FAA6A173D5B6565F12FE4 /* FSParseRssPodcastFeedRequest.m */,
-				AB1E043BB77E2334999D769D3071DFF8 /* FSPlaylistItem.h */,
-				B3BBF2A559513FC9FD821238C950B10F /* FSPlaylistItem.m */,
-				C6A9DE260F9B13D6C4078BFC4ABD476B /* FSXMLHttpRequest.h */,
-				42CAC87A56F20ECD25CB8D0D8AFDBC6D /* FSXMLHttpRequest.m */,
-				C6E69C716FEA9ACA8E099AB3183F7CE5 /* http_stream.cpp */,
-				24BAED2A4B08558268250DAF9695B545 /* http_stream.h */,
-				C27476C545991F31C92D4E8EE5D7BE35 /* id3_parser.cpp */,
-				6ECA95A46A00D4E0C844C579538E403E /* id3_parser.h */,
-				FDC1C244FF6D89F0474DAB85570E9033 /* input_stream.cpp */,
-				2CF7505D8D7920C2EFE9B4C2DE9EF49D /* input_stream.h */,
-				4522E11B78B7ABC5BBDF85E00CBA9A5A /* stream_configuration.cpp */,
-				78F69128CE9EE1842FC4E6E342228E1E /* stream_configuration.h */,
-				4E868F12BE9E08DBA8D1F89B4019A78F /* Support Files */,
-			);
-			path = FreeStreamer;
-			sourceTree = "<group>";
-		};
-		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B0E8B7EAD7205785A4A1B5F8C14AF526 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1E545B2BCCE50E311F30F91C9A5E8001 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				669BC7E1DCD0F44A5BB1C2ED2ECEB849 /* Reachability.xcconfig */,
-				94653358C323725B49EAADC35FB3CFF3 /* Reachability-dummy.m */,
-				A7C998C72A26103940C6A2B84294B429 /* Reachability-prefix.pch */,
+				836747304F0DA763BC6DC32FFEC1BA79 /* MJRefresh.xcconfig */,
+				05F1E74A7E50B9328B585B540476FADB /* MJRefresh-dummy.m */,
+				018BF29FFA7DE53C15D25ECD68EAC357 /* MJRefresh-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Reachability";
+			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
-		361669CA3E4E9B21FD94183EB186F1D2 /* Resources */ = {
+		03FDFDC96E1720C2EFB477842AF924D0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF20C5918702F50C8FCEDC711D691235 /* MJRefresh.bundle */,
+				F7AAE430BAB04940A6AA8C9FC83F98C3 /* FreeStreamer.xcconfig */,
+				6B638CB10A7C67BA54B4A44BA7C62A0F /* FreeStreamer-dummy.m */,
+				9261FB3CB86ACA17B3DF854DCDBF6AA8 /* FreeStreamer-prefix.pch */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/FreeStreamer";
 			sourceTree = "<group>";
 		};
-		388B68082FEDCA6DFB7F65A728516F50 /* Products */ = {
+		1BB092A3ED8DC9019C91CDDD0FEB82FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10CACE4F9E3ED362BAF26AA016DFBE45 /* libFreeStreamer.a */,
-				BE5191F118FD418DC2D3A2ED278333F5 /* libMJRefresh.a */,
-				01EBC4D29FCBAA202BC94E5E8BCA0FDD /* libPods-AudioPlayer.a */,
-				BE55AD748CD4E8E81F09DBB6F67C7A9A /* libReachability.a */,
+				C9710F9208DC194A2F7BFD93F1C4CFD7 /* libFreeStreamer.a */,
+				73C4872BA55B390F01B497A73E4E2330 /* libMBProgressHUD.a */,
+				840E763C12F9305AD5FBF40907B33EE8 /* libMJRefresh.a */,
+				86E7A5537C9A5EBE892EACA2988582A2 /* libPods-AudioPlayer.a */,
+				D1E6EDF86EE40E27782574CDD3A16912 /* libReachability.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E868F12BE9E08DBA8D1F89B4019A78F /* Support Files */ = {
+		21CDE36DB60D062026F2C32A9AD7DD30 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7F40F10E22F44FD6B55AF042CF332517 /* FreeStreamer.xcconfig */,
-				336196A70D55F45089EB45F7A5095271 /* FreeStreamer-dummy.m */,
-				4387B0EA4028D994D1279178673A6F1A /* FreeStreamer-prefix.pch */,
+				F7E23D43E9AC38744A261065D1363E91 /* AudioToolbox.framework */,
+				E2E4081CC9BC8F214630D1C16EB6E2C4 /* AVFoundation.framework */,
+				784CD573752F741A2631A48E6767FE61 /* CFNetwork.framework */,
+				46F520A9C7599B1E09C41B201CFF4375 /* CoreGraphics.framework */,
+				C4AC317C9CFB943011BD2EC06BD000BA /* Foundation.framework */,
+				CBFEE8D3A07E0B87FF666485C161740E /* MediaPlayer.framework */,
+				27272B657DEE3E39F40C7DA9CEA428AA /* QuartzCore.framework */,
+				67D156792169B0CC91581BFA20540424 /* SystemConfiguration.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FreeStreamer";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3EB438ED340650D7E0FBB683B424D499 /* FreeStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DBA6FFEFB53AC6FBE341C46EC84B2 /* audio_queue.cpp */,
+				DB9BD36E595B324314048CCA3C434480 /* audio_queue.h */,
+				BDF5A17EDADCD64AC0F425405100C630 /* audio_stream.cpp */,
+				325BFDFDA94405365BB0F497625ADCB2 /* audio_stream.h */,
+				A5F4E0C90E2E9F75A262AF02B9F5ED7E /* caching_stream.cpp */,
+				B430077DD6E37F6DB56AD8C779CFFE60 /* caching_stream.h */,
+				FEC81E58CA29D29E10BB32AAC0C70BDC /* file_output.cpp */,
+				DE03CAE79FDD2E122C4FF8C73D166BED /* file_output.h */,
+				7C34E6E2F945BFE7E954971D452C740D /* file_stream.cpp */,
+				7A85CE3C724A7AE5E032EBB983AE9D03 /* file_stream.h */,
+				5BBFB7B87780125C5418902A47965345 /* FSAudioController.h */,
+				4C1E75FE99AF131E8A9105C2DE37534A /* FSAudioController.m */,
+				11E145DCE6E8DF099C98601ED1ED1A48 /* FSAudioStream.h */,
+				F7C0996E82D3214209EC69EC116B8383 /* FSAudioStream.mm */,
+				EAD49A76A917E47B3C056685E23A70A6 /* FSCheckContentTypeRequest.h */,
+				314BC18A5A0488F39AF1C3C121CDFCE0 /* FSCheckContentTypeRequest.m */,
+				649D5A86CA84EFFECC1E4D5236E1770D /* FSParsePlaylistRequest.h */,
+				983EF9CABC35AE0C03EFD580C5C24591 /* FSParsePlaylistRequest.m */,
+				AB10AD4761CBB1E6917DF5BD77C9073D /* FSParseRssPodcastFeedRequest.h */,
+				AFF633661839C1F08C6D36BBA5456A6E /* FSParseRssPodcastFeedRequest.m */,
+				1B6FF2A7C7290D4B6F821C7458237790 /* FSPlaylistItem.h */,
+				58946BBE44A463B7736BF9D5D13160E0 /* FSPlaylistItem.m */,
+				120F89A2C416B51C7E8261958AEC29B7 /* FSXMLHttpRequest.h */,
+				A378F2A75A6CE481BFD875A78092E8F9 /* FSXMLHttpRequest.m */,
+				3B3C4B9D16049A6C3850F1C045836F1C /* http_stream.cpp */,
+				CDCA5B81749AF7D42B491C9A76FD81EB /* http_stream.h */,
+				4A0BFF2BE3DDFE9127C7A3F8A7ED2D72 /* id3_parser.cpp */,
+				1C7A42F58866905E56732AD88A954AF0 /* id3_parser.h */,
+				4C4D552DDB09D6957BD1FEB4BE3C06D5 /* input_stream.cpp */,
+				DDF8086F44559D8F9FFFDC5DBB860875 /* input_stream.h */,
+				7CFB47738B9E55A33ACC1CAC7A25A4F4 /* stream_configuration.cpp */,
+				2B07D906C3941ECE0CF5CD8922B32DC8 /* stream_configuration.h */,
+				03FDFDC96E1720C2EFB477842AF924D0 /* Support Files */,
+			);
+			path = FreeStreamer;
+			sourceTree = "<group>";
+		};
+		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CDE36DB60D062026F2C32A9AD7DD30 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A85A4B562143A6DEED2793FECB9C708 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CADDF33CB8C19BB8CC07384BEA1C1725 /* MBProgressHUD.h */,
+				07C7100C47B4455ABD609305D94CFE5D /* MBProgressHUD.m */,
+				83F29FFC96DA0D8E58F917B4E7209F8C /* Support Files */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
-				FD45FC0BB17F5AF34B71A8A6AFADDFAA /* Pods */,
-				388B68082FEDCA6DFB7F65A728516F50 /* Products */,
+				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				98C55240EDF766CBE3EEE832FC01DC99 /* Pods */,
+				1BB092A3ED8DC9019C91CDDD0FEB82FE /* Products */,
 				DA0A1C06FB63CF63FA097E276C45AD48 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82194FBD0673A8649ED5378B01568AB4 /* Support Files */ = {
+		83F29FFC96DA0D8E58F917B4E7209F8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				234751596228574D2C2F33E2B31072C3 /* MJRefresh.xcconfig */,
-				C2DB995A313DF7E0305F77B55A0291C8 /* MJRefresh-dummy.m */,
-				6B98308AB25B395C43D622B3DF225B6A /* MJRefresh-prefix.pch */,
+				3B9EAC3CDB8EBF1DDB78F3F374C2581A /* MBProgressHUD.xcconfig */,
+				47EB688C2AF3BF9A484356ED30DCD991 /* MBProgressHUD-dummy.m */,
+				D7BC8D659F0AFFE88B24B90A03650C6A /* MBProgressHUD-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MJRefresh";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		982F151B4AF566A88CFCEEFDEC6EA83C /* Reachability */ = {
+		85C41B8DDFA5CA7EEAF8D142AE28F50B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1DBD3CF1E322C7F18674DD44C8CE1E8C /* Reachability.h */,
-				7B836F0DF0D9791C660F843417F0F208 /* Reachability.m */,
-				1E545B2BCCE50E311F30F91C9A5E8001 /* Support Files */,
+				06D6BE05E8A383A689733E7E0645AD64 /* MJRefresh.bundle */,
 			);
-			path = Reachability;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		B0E8B7EAD7205785A4A1B5F8C14AF526 /* iOS */ = {
+		98C55240EDF766CBE3EEE832FC01DC99 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				688E07FDC704F58D58C50CDC34414867 /* AudioToolbox.framework */,
-				77498A3D6FD0A660C1BF0D3EFDACBB71 /* AVFoundation.framework */,
-				9148B97B63C6E01100957AABC4A23DBB /* CFNetwork.framework */,
-				09922291141ABC7A135FC7C42BA28A52 /* Foundation.framework */,
-				8DE5BDB5715D6DE82849B2DAFDB244AF /* MediaPlayer.framework */,
-				020D509FF970BE600AB05D107A9BEAC5 /* SystemConfiguration.framework */,
+				3EB438ED340650D7E0FBB683B424D499 /* FreeStreamer */,
+				7A85A4B562143A6DEED2793FECB9C708 /* MBProgressHUD */,
+				E232E96E5D3861697BA81BAA121B9A6A /* MJRefresh */,
+				E13A5A5DAF4AF4667F8C313CEF62528F /* Reachability */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1DB09A6F59DCF4D297B8994AF506942 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD69357A59049E13C18CE67D0AA89058 /* Reachability.xcconfig */,
+				D769A2A64CD67242F9A920EE7261005C /* Reachability-dummy.m */,
+				09BAC18BAB57D827B6C3DFA1A457FDD0 /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
 		CCACCC76C4A565531DBD70B7B05EEDB3 /* Pods-AudioPlayer */ = {
@@ -476,14 +484,62 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FD45FC0BB17F5AF34B71A8A6AFADDFAA /* Pods */ = {
+		E13A5A5DAF4AF4667F8C313CEF62528F /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				0DB9B38BEC638481BE05D14169C41AFE /* FreeStreamer */,
-				05B80680B020BD620666B3E3A66CF957 /* MJRefresh */,
-				982F151B4AF566A88CFCEEFDEC6EA83C /* Reachability */,
+				BFD0003F97A0794C30B8D7A7467FB042 /* Reachability.h */,
+				D629AEC82BA30A7160F8978099F21778 /* Reachability.m */,
+				B1DB09A6F59DCF4D297B8994AF506942 /* Support Files */,
 			);
-			name = Pods;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E232E96E5D3861697BA81BAA121B9A6A /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F4E308FBF863598C26E5A9D9EF16B587 /* MJRefresh.h */,
+				F866EBD89A5470E456DE5D57B98505F5 /* MJRefreshAutoFooter.h */,
+				5F149CFFCF9808095D947DD1184C3184 /* MJRefreshAutoFooter.m */,
+				5818F20EB3699D9C35BD41E9ED4BFB00 /* MJRefreshAutoGifFooter.h */,
+				BA0F57046D24C8418887DF060624AE8E /* MJRefreshAutoGifFooter.m */,
+				B44565313B010F837A783A51C6087C2F /* MJRefreshAutoNormalFooter.h */,
+				1F67F320BA5B4CEDB75EF5E959C16E5C /* MJRefreshAutoNormalFooter.m */,
+				88B68E660CE4BDF06CE86B8C536EC88A /* MJRefreshAutoStateFooter.h */,
+				7F6A28B5453D6B043E2FB4F4958342CD /* MJRefreshAutoStateFooter.m */,
+				51E1ECA08580BB8E2D0CE1D0B8E3720A /* MJRefreshBackFooter.h */,
+				5FFBEAB673193AB7AB22BC16243D50A0 /* MJRefreshBackFooter.m */,
+				2CA307EBBBB54B1D84CCB5C2C0763C60 /* MJRefreshBackGifFooter.h */,
+				5607A13C3DEF6E7A17629BEA9D405B2D /* MJRefreshBackGifFooter.m */,
+				FF2A827E426FAC64D6D4A75F2A525C6A /* MJRefreshBackNormalFooter.h */,
+				28E69782E65671CE5B593FAEB5995973 /* MJRefreshBackNormalFooter.m */,
+				D12A76375C6147011B2761C55E88268A /* MJRefreshBackStateFooter.h */,
+				ABEC3CE61D4257BB66535848BC0337E7 /* MJRefreshBackStateFooter.m */,
+				7AE549634196E4DCD275E09CE5F897DD /* MJRefreshComponent.h */,
+				2AA3BBE76C543F8A0946423C7BB53F03 /* MJRefreshComponent.m */,
+				BA0A51D9E8D6E304D48AE8F4CFE564F5 /* MJRefreshConst.h */,
+				034736E233C7468A4DB4F25F711CB3F5 /* MJRefreshConst.m */,
+				B7B11F6AA2CDCF034CC7E241D1112734 /* MJRefreshFooter.h */,
+				C49F1DC3176CFA1612320248F090A7E7 /* MJRefreshFooter.m */,
+				7087B3B5132D75873202B527224440E1 /* MJRefreshGifHeader.h */,
+				8D9CCB67152221607EC9EDA2A05811A0 /* MJRefreshGifHeader.m */,
+				7EBD6F59897A1237A2E5A71A71DA7020 /* MJRefreshHeader.h */,
+				73473CB297DED9A23A011A146EC98C2D /* MJRefreshHeader.m */,
+				52012C2ADDB7BEEC050ED956F58C6ADF /* MJRefreshNormalHeader.h */,
+				10160B74CA5E8D67324A8812E5CF0301 /* MJRefreshNormalHeader.m */,
+				0264BEEACE3F240873F5A0730AAC7D28 /* MJRefreshStateHeader.h */,
+				4F79BD6264FE45C61C6A46552A8B2D93 /* MJRefreshStateHeader.m */,
+				ABC0C9DB69C6DE6389B0C8E44976F4CD /* NSBundle+MJRefresh.h */,
+				4E27F153580127C866C8F69B8775C85D /* NSBundle+MJRefresh.m */,
+				259BEF13B3D31E5F9A37E66590A1F657 /* UIScrollView+MJExtension.h */,
+				07C75B75B59CB170800FCBA568CEADBA /* UIScrollView+MJExtension.m */,
+				F9517ABCE5A45F03CE38575396354154 /* UIScrollView+MJRefresh.h */,
+				26B5264ED079CB75DCA78987122589B6 /* UIScrollView+MJRefresh.m */,
+				B118A15B2B4712105AA0AB7B7C0027CA /* UIView+MJExtension.h */,
+				D735639A42C2927C5DB05D853FB53007 /* UIView+MJExtension.m */,
+				85C41B8DDFA5CA7EEAF8D142AE28F50B /* Resources */,
+				03E111D1337DEF46EE2364D2402E8F8F /* Support Files */,
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,6 +577,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				883621FD17021E05C78001D9EB1D5F5C /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70C2B60AD15BF12091026A33774F9F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695A3FA15E903AE48EB0B3BE336F2467 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,26 +628,44 @@
 			);
 			name = MJRefresh;
 			productName = MJRefresh;
-			productReference = BE5191F118FD418DC2D3A2ED278333F5 /* libMJRefresh.a */;
+			productReference = 840E763C12F9305AD5FBF40907B33EE8 /* libMJRefresh.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BF6FE89640C798E8FEE375D604A46E95 /* Pods-AudioPlayer */ = {
+		BE6528C60FEBFF523E4D340446B71240 /* Pods-AudioPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C5662172A542A682EF67F817597F709 /* Build configuration list for PBXNativeTarget "Pods-AudioPlayer" */;
+			buildConfigurationList = 5476EAB8334C5F3E10FBE66B33F9DB03 /* Build configuration list for PBXNativeTarget "Pods-AudioPlayer" */;
 			buildPhases = (
-				2045CE712B945A7F31949061B9F90C83 /* Sources */,
-				3B62131968D37D8FCF1B907471F99ABF /* Frameworks */,
+				4E5EE4E9BA60EBE5650F0856291AD2DD /* Sources */,
+				43D191C99AA8F778D5543018D83C6962 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DDE2C152C4502893F6F6C1AC87ADFE6D /* PBXTargetDependency */,
-				8060CB5AA3065BD9D2F492F20BED4BA1 /* PBXTargetDependency */,
-				8CD2CD7C10A7C270606EC26ECAA8C34E /* PBXTargetDependency */,
+				30225C2E51F6FB578F70DD7C569E6507 /* PBXTargetDependency */,
+				D38317598A3C3AF2C8BF9DD99AA1633D /* PBXTargetDependency */,
+				5C873B2DC348A8DDE21206E77950E84E /* PBXTargetDependency */,
+				C480E7CEDA6CC78810B8549D88BB2800 /* PBXTargetDependency */,
 			);
 			name = "Pods-AudioPlayer";
 			productName = "Pods-AudioPlayer";
-			productReference = 01EBC4D29FCBAA202BC94E5E8BCA0FDD /* libPods-AudioPlayer.a */;
+			productReference = 86E7A5537C9A5EBE892EACA2988582A2 /* libPods-AudioPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D058B89EB3B3DF45457A2DCD3971AFFE /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97048AF18C3EFEDE731BDEECCD58A8 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				E9001FCA1D7F025E918399909B4942DA /* Sources */,
+				988FA15379A4032C312C2049FB88101A /* Frameworks */,
+				D70C2B60AD15BF12091026A33774F9F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 73C4872BA55B390F01B497A73E4E2330 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DA5031B739E0701A67146E751C513B86 /* Reachability */ = {
@@ -600,7 +682,7 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = BE55AD748CD4E8E81F09DBB6F67C7A9A /* libReachability.a */;
+			productReference = D1E6EDF86EE40E27782574CDD3A16912 /* libReachability.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DB9267A921EC9A17098996C028A8F134 /* FreeStreamer */ = {
@@ -618,7 +700,7 @@
 			);
 			name = FreeStreamer;
 			productName = FreeStreamer;
-			productReference = 10CACE4F9E3ED362BAF26AA016DFBE45 /* libFreeStreamer.a */;
+			productReference = C9710F9208DC194A2F7BFD93F1C4CFD7 /* libFreeStreamer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -638,33 +720,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 388B68082FEDCA6DFB7F65A728516F50 /* Products */;
+			productRefGroup = 1BB092A3ED8DC9019C91CDDD0FEB82FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DB9267A921EC9A17098996C028A8F134 /* FreeStreamer */,
+				D058B89EB3B3DF45457A2DCD3971AFFE /* MBProgressHUD */,
 				70BC44266C6FFE30D2C57129458E070B /* MJRefresh */,
-				BF6FE89640C798E8FEE375D604A46E95 /* Pods-AudioPlayer */,
+				BE6528C60FEBFF523E4D340446B71240 /* Pods-AudioPlayer */,
 				DA5031B739E0701A67146E751C513B86 /* Reachability */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2045CE712B945A7F31949061B9F90C83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E293F0E5FCEDE19B582AF7ED50EFE81 /* Pods-AudioPlayer-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A438C8AEAFDE1F0BFF2763369141340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C0B37414EDB304F4C4FD536ADF57D33B /* Reachability-dummy.m in Sources */,
 				BD1BD044F24621F7C578F81AE74EE0A3 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5EE4E9BA60EBE5650F0856291AD2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE3105DA903226A8910A8986D35E7BA /* Pods-AudioPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,20 +802,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9001FCA1D7F025E918399909B4942DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648E7F45D6E4DCE98EED9D4E2F003C1E /* MBProgressHUD-dummy.m in Sources */,
+				CCA9C08C9CBDE367B7BB38B6C0547B94 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8060CB5AA3065BD9D2F492F20BED4BA1 /* PBXTargetDependency */ = {
+		30225C2E51F6FB578F70DD7C569E6507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FreeStreamer;
+			target = DB9267A921EC9A17098996C028A8F134 /* FreeStreamer */;
+			targetProxy = 5F9DE4C9CF5681605F84BF368FB95249 /* PBXContainerItemProxy */;
+		};
+		5C873B2DC348A8DDE21206E77950E84E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = 70BC44266C6FFE30D2C57129458E070B /* MJRefresh */;
-			targetProxy = 5D39AF1B72338CEC4C993C488A033B86 /* PBXContainerItemProxy */;
-		};
-		8CD2CD7C10A7C270606EC26ECAA8C34E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Reachability;
-			target = DA5031B739E0701A67146E751C513B86 /* Reachability */;
-			targetProxy = E344A964E9EFAA16AEEC5B3BA91E3D77 /* PBXContainerItemProxy */;
+			targetProxy = F55A29A5FAFFE3BCB81AE516CBF41840 /* PBXContainerItemProxy */;
 		};
 		B1FA6F0FD87E307FEDB059622721FD2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -740,11 +832,17 @@
 			target = DA5031B739E0701A67146E751C513B86 /* Reachability */;
 			targetProxy = FCDBC4FCD4C5D39F7601BFA6D4144D1C /* PBXContainerItemProxy */;
 		};
-		DDE2C152C4502893F6F6C1AC87ADFE6D /* PBXTargetDependency */ = {
+		C480E7CEDA6CC78810B8549D88BB2800 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FreeStreamer;
-			target = DB9267A921EC9A17098996C028A8F134 /* FreeStreamer */;
-			targetProxy = 2C75F1F87F5CB05ADE19C00ACE36C24D /* PBXContainerItemProxy */;
+			name = Reachability;
+			target = DA5031B739E0701A67146E751C513B86 /* Reachability */;
+			targetProxy = 4A356F479E62C20ACB721547CC0E1E1E /* PBXContainerItemProxy */;
+		};
+		D38317598A3C3AF2C8BF9DD99AA1633D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = D058B89EB3B3DF45457A2DCD3971AFFE /* MBProgressHUD */;
+			targetProxy = C7F796E3293A3289B8A3078C58F84FF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -793,9 +891,32 @@
 			};
 			name = Debug;
 		};
+		2831CF29718FF0093663E5B724FA845B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12A4BCDA65BABA73432AA94E094A3A5 /* Pods-AudioPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		3EC48CD4A848D7CA29B542A80B748178 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 234751596228574D2C2F33E2B31072C3 /* MJRefresh.xcconfig */;
+			baseConfigurationReference = 836747304F0DA763BC6DC32FFEC1BA79 /* MJRefresh.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -815,6 +936,29 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		40E49B4A060E202FD24269DC961241C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9EAC3CDB8EBF1DDB78F3F374C2581A /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -858,7 +1002,7 @@
 		};
 		5DAB537CDFBF7B4136A17B476B1AF6DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 234751596228574D2C2F33E2B31072C3 /* MJRefresh.xcconfig */;
+			baseConfigurationReference = 836747304F0DA763BC6DC32FFEC1BA79 /* MJRefresh.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -879,32 +1023,9 @@
 			};
 			name = Release;
 		};
-		9127CE3E0179AC751959CE7C3CBA70E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1592865209BFFCC30AA4D5493B574217 /* Pods-AudioPlayer.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		95C3FA5828D9835366BA3E3DAB020E49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 669BC7E1DCD0F44A5BB1C2ED2ECEB849 /* Reachability.xcconfig */;
+			baseConfigurationReference = AD69357A59049E13C18CE67D0AA89058 /* Reachability.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -927,7 +1048,7 @@
 		};
 		ADA38A1696B3E843B6C719F51AF0079D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F40F10E22F44FD6B55AF042CF332517 /* FreeStreamer.xcconfig */;
+			baseConfigurationReference = F7AAE430BAB04940A6AA8C9FC83F98C3 /* FreeStreamer.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -948,9 +1069,32 @@
 			};
 			name = Release;
 		};
+		AFA0393852CDBCE6BFC2B6A59F4B590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1592865209BFFCC30AA4D5493B574217 /* Pods-AudioPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D8AD24A48F988BF802FA7A4388CC4A0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 669BC7E1DCD0F44A5BB1C2ED2ECEB849 /* Reachability.xcconfig */;
+			baseConfigurationReference = AD69357A59049E13C18CE67D0AA89058 /* Reachability.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -971,32 +1115,9 @@
 			};
 			name = Release;
 		};
-		DE6E642E542743B082F36751BC95DF0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12A4BCDA65BABA73432AA94E094A3A5 /* Pods-AudioPlayer.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		DED532502CFF3F5350F503727757D8C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F40F10E22F44FD6B55AF042CF332517 /* FreeStreamer.xcconfig */;
+			baseConfigurationReference = F7AAE430BAB04940A6AA8C9FC83F98C3 /* FreeStreamer.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1005,6 +1126,29 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FreeStreamer/FreeStreamer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF41A14C5A9301135D584BE75A83708A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9EAC3CDB8EBF1DDB78F3F374C2581A /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1029,11 +1173,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C5662172A542A682EF67F817597F709 /* Build configuration list for PBXNativeTarget "Pods-AudioPlayer" */ = {
+		1F97048AF18C3EFEDE731BDEECCD58A8 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE6E642E542743B082F36751BC95DF0D /* Debug */,
-				9127CE3E0179AC751959CE7C3CBA70E1 /* Release */,
+				EF41A14C5A9301135D584BE75A83708A /* Debug */,
+				40E49B4A060E202FD24269DC961241C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1061,6 +1205,15 @@
 			buildConfigurations = (
 				95C3FA5828D9835366BA3E3DAB020E49 /* Debug */,
 				D8AD24A48F988BF802FA7A4388CC4A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5476EAB8334C5F3E10FBE66B33F9DB03 /* Build configuration list for PBXNativeTarget "Pods-AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2831CF29718FF0093663E5B724FA845B /* Debug */,
+				AFA0393852CDBCE6BFC2B6A59F4B590F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

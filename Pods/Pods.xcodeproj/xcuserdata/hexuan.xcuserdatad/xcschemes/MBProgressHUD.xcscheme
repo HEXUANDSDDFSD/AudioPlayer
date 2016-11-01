@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BE6528C60FEBFF523E4D340446B71240'
-               BlueprintName = 'Pods-AudioPlayer'
+               BlueprintIdentifier = 'D058B89EB3B3DF45457A2DCD3971AFFE'
+               BlueprintName = 'MBProgressHUD'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-AudioPlayer.a'>
+               BuildableName = 'libMBProgressHUD.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

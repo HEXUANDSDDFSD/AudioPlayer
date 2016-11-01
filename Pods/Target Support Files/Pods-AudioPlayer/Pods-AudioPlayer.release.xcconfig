@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FreeStreamer" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Reachability"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FreeStreamer" "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh" "$PODS_CONFIGURATION_BUILD_DIR/Reachability"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FreeStreamer" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/Reachability"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"FreeStreamer" -l"MJRefresh" -l"Reachability" -l"stdc++" -l"xml2" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "MediaPlayer" -framework "SystemConfiguration"
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FreeStreamer" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Reachability"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FreeStreamer" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh" "$PODS_CONFIGURATION_BUILD_DIR/Reachability"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FreeStreamer" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/Reachability"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FreeStreamer" -l"MBProgressHUD" -l"MJRefresh" -l"Reachability" -l"stdc++" -l"xml2" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "MediaPlayer" -framework "QuartzCore" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
